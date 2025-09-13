@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Caveat", cursive;
+  font-style: normal;
+
+
+}
+
+:root {
+  --custom-width : 1200px;
+  --custom-max-width : 1700px;
+  --bg-color-light : #F7F7F7;
+  --bg-color-dark : #25282A;
+  --custom-color-1 : #1E2122;
+}
+
+
+.list-input:focus{
+  outline: none;
+}
+
+
+.list-input::placeholder{
+  font-size: 20px;
+}
+
+.theme-transition{
+  transition: all 0.4s ease-in-out;
+}
