@@ -2,6 +2,7 @@ import pool from "./db-connection.js";
 
 
 
+
 export const getNotes = async() =>{
 const results = await pool.query("select * from notes")
 return results[0]
